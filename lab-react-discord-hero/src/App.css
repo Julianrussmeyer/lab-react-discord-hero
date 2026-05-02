@@ -1,0 +1,75 @@
+body {
+  max-width: 1080px;
+  margin: auto;
+  background: #5865f2;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding: 32px 32px;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Logo {
+  width: 200px;
+  height: 40px;
+}
+
+.Icon {
+  width: 40px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 70px;
+  text-transform: uppercase;
+  text-align: left;
+  color: white;
+  max-width: 50%;
+  line-height: 90%;
+}
+
+.Text {
+  max-width: 50%;
+  font-weight: bolder;
+  line-height: 150%;
+}
+
+.Content {
+  position: absolute;
+}
+
+.Buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  max-width: 50%;
+  gap: 16px
+}
+
+button {
+  border-radius: 30px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+}
+
+.ButtonMac {
+  background-color: white;
+}
+
+.ButtonBrowser {
+  background-color: rgb(43, 43, 43);
+  color: white;
+}
+
+.Image {
+  position: relative;
+  float: right;
+}
+
+.ImageContainer {
+  margin-right: 120px;
+}
